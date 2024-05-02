@@ -1,0 +1,53 @@
+.partners {
+    &__wrapper {
+        padding: 0 0 180px 0;
+    }
+    &__title {
+        padding-bottom: 60px;
+        margin: 0 auto;
+        text-align: center;
+        color: #000000;
+        font-size: 43px;
+        font-family: "Arial";
+    }
+    &__logo-card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 150px;
+    }
+
+    &__img1 {
+        max-width: 271px;
+        height: 142px;
+    }
+    &__img2 {
+        max-width: 380px;
+        height: 128px;
+    }
+    &__img3 {
+        max-width: 320px;
+        height: 134px;
+    }
+    &__img4 {
+        max-width: 328px;
+        height: 155px;
+    }
+    &__img5 {
+        max-width: 159px;
+        height: 166px;
+    }
+    &__img6 {
+        max-width: 309px;
+        height: 120px;
+    }
+    &__img7 {
+        max-width: 260px;
+        height: 127px;
+    }
+    &__img8 {
+        max-width: 381px;
+        height: 81px;
+    }
+}

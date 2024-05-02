@@ -1,0 +1,86 @@
+.commerce {
+    background: #faf4f4;
+  
+    
+    &____container3 {
+        max-width: 1519px;
+       
+    }
+    &__wrapper {
+        max-width: 1520px;
+        display: flex;
+        align-items: center;
+        gap: 70px;
+    }
+    &__img1 {
+        max-width: 759px;
+        height: 676px;
+        object-fit: cover;
+        margin-left:-10px ;
+    }
+     &__login-blog{
+      
+     }
+    &__login-title {
+        max-width: 607px;
+        padding-bottom: 20px;
+        font-size: 42px;
+        line-height: 1.23;
+        font-family: "Arial";
+        font-weight: 600;
+        color: #000000;
+    }
+    &__login-text {
+        padding-bottom: 30px;
+        font-size: 20px;
+        line-height: 1.55;
+        font-family: "Arial";
+        font-weight: 300;
+        color: #000000;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0;
+    }
+    &__input {
+        width: 100%;
+        color: #000000;
+        border: none;
+        height: 60px;
+        padding: 0 20px;
+        font-size: 16px;
+        font-family: "Arial";
+        border-bottom: 1px solid #b3b3b3;
+        background: transparent;
+        outline: none;
+    }
+    
+    &__button {
+       
+        color: #fff;
+        text-align: center;
+        border: 0 none;
+        font-size: 16px;
+        font-family: "Arial";
+        font-size: 16px;
+        font-weight: 700;
+        max-width: 251px;
+        height: 68px;
+        background-color: #de9000;
+        border-radius: 30px;
+         margin-top:20px ;
+    }
+}
+
+
+@media (min-width: 1521px) {
+    .commerce {
+        &__container3{
+            max-width: 1500px;
+            margin: 0 auto;
+        }
+       
+    }
+}

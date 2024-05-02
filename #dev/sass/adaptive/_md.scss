@@ -1,0 +1,203 @@
+@media (max-width: 768px) {
+    .hero {
+        &__wrapper-text {
+            padding: 120px 0 0px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+        }
+        &__title {
+            text-align: center;
+            max-width: 566px;
+            color: #000000;
+            font-size: 26px;
+            font-family: "Tilda";
+            line-height: 50px;
+            font-weight: 600;
+        }
+
+        &__logo {
+            margin-top: 35px auto 0 auto;
+            max-width: 450px;
+            height: 100px;
+        }
+    }
+    .provision {
+        &__card-img {
+            display: flex;
+            justify-content: center;
+            flex-wrap: unset;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        &__wrapper {
+            padding: 0 0 150px 0;
+        }
+        &__title {
+            padding: 0 0 72px 0;
+            text-align: center;
+            margin: 0 auto;
+            color: #000000;
+            font-size: 36px;
+            font-family: "Arial";
+            font-weight: 600;
+        }
+
+        &__img1 {
+            margin: 0 auto;
+            max-width: 300px;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+        &__img2 {
+            margin: 0 auto;
+            max-width: 272px;
+
+            align-items: center;
+            gap: 30px;
+        }
+        &__img3 {
+            margin: 0 auto;
+            max-width: 300px;
+
+            align-items: center;
+            gap: 30px;
+        }
+        &__img4 {
+            margin: 0 auto;
+            max-width: 278px;
+
+            align-items: center;
+            gap: 30px;
+        }
+
+        &__imj1 {
+            max-width: 300px;
+            height: 230px;
+            margin-bottom: 20px;
+        }
+        &__imj2 {
+            max-width: 272px;
+            height: 272px;
+            margin-bottom: 20px;
+        }
+        &__imj3 {
+            max-width: 278px;
+            height: 272px;
+            margin-bottom: 20px;
+        }
+        &__imj4 {
+            max-width: 300px;
+            height: 270px;
+            margin-bottom: 20px;
+        }
+        &__imj1-title {
+            text-align: center;
+            line-height: 40px;
+            color: #000000;
+            font-size: 18px;
+            font-family: "Arial";
+            font-weight: 600;
+        }
+        &__imj3-title {
+            margin: 0 auto;
+            max-width: 270px;
+            text-align: center;
+            line-height: 40px;
+            color: #000000;
+            font-size: 20px;
+            font-family: "Arial";
+            font-weight: 600;
+        }
+    }
+    .services {
+
+    &__wrapper{
+        padding: 0 0 120px 0;
+    }
+
+    &__title {
+        padding-bottom: 60px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 71px;
+        color: #000000;
+        font-size: 36px;
+        font-family: "Tilda";
+        font-weight: 600;
+    }
+
+    &__card-img {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px 0px;
+    }
+
+    &__imj1 {
+        margin: 0 auto;
+        max-width: 300px;
+        height: 280px;
+    }
+    &__imj2 {
+         margin: 0 auto;
+        max-width: 300px;
+        height: 280px;
+    }
+    &__imj3 {
+         margin: 0 auto;
+        max-width: 300px;
+        height: 280px;
+    }
+    &__imj4 {
+         margin: 0 auto;
+        max-width: 300px;
+        height: 280px;
+    }
+    &__imj1-title {
+        max-width: 230px;
+        margin: 20px auto 0 auto;
+        text-align: center;
+        line-height: 29px;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Tilda";
+        font-weight: 600;
+    }
+    &__imj2-title {
+        max-width: 230px;
+        margin: 20px auto 0 auto;
+        text-align: center;
+        line-height: 29px;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Tilda";
+        font-weight: 600;
+    }
+    &__imj3-title {
+        max-width: 350px;
+        margin: 20px auto 0 auto;
+        text-align: center;
+        line-height: 29px;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Tilda";
+        font-weight: 600;
+    }
+    &__imj4-title {
+        max-width: 350px;
+        margin: 20px auto 0 auto;
+        text-align: center;
+        line-height: 29px;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Tilda";
+        font-weight: 600;
+    }
+}
+}

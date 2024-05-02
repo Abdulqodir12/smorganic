@@ -1,0 +1,57 @@
+.contact {
+    &__wrapper {
+        padding: 150px 0 60px  0;
+    }
+    &__title {
+        text-align: center;
+        margin-bottom: 45px;
+        font-size: 42px;
+        font-family: " Tilda";
+        font-weight: 600;
+        color: #000000;
+    }
+    &__link-blog {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+    &__link {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 26px;
+        font-family:  Tilda;
+        font-weight: 300;
+        color: #000000;
+    }
+    &__text {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 16px;
+        font-family: Tilda;
+        font-weight: 300;
+        color: #000000;
+    }
+    &__span{
+            color: #ff8562;
+   
+    }
+  &__facebook{
+    padding-top: 20px;
+     padding-bottom: 170px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 5px;
+  }
+    &__icon1{
+  width: 48px;
+  height: 48px;
+    }
+    &__line{
+       
+        margin: 0 auto;
+    max-width:  160px;
+    height: 1px;
+    background-color: #b1b1b1;
+    }
+}

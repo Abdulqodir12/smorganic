@@ -1,0 +1,81 @@
+.services {
+
+    &__wrapper{
+        padding: 0 0 120px 0;
+    }
+
+    &__title {
+        padding-bottom: 60px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 71px;
+        color: #000000;
+        font-size: 43px;
+        font-family: "Arial";
+        font-weight: 600;
+    }
+
+    &__card-img {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    &__imj1 {
+        max-width: 286px;
+        height: 332px;
+    }
+    &__imj2 {
+        max-width: 293px;
+        height: 335px;
+    }
+    &__imj3 {
+        max-width: 383px;
+        height: 336px;
+    }
+    &__imj4 {
+        max-width: 391px;
+        height: 337px;
+    }
+    &__imj1-title {
+        max-width: 230px;
+        margin: 20px auto 0 auto;
+        text-align: center;
+        line-height: 29px;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Arial";
+        font-weight: 600;
+    }
+    &__imj2-title {
+        max-width: 230px;
+        margin: 20px auto 0 auto;
+        text-align: center;
+        line-height: 29px;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Arial";
+        font-weight: 600;
+    }
+    &__imj3-title {
+        max-width: 350px;
+        margin: 20px auto 0 auto;
+        text-align: center;
+        line-height: 29px;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Arial";
+        font-weight: 600;
+    }
+    &__imj4-title {
+        max-width: 350px;
+        margin: 20px auto 0 auto;
+        text-align: center;
+        line-height: 29px;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Arial";
+        font-weight: 600;
+    }
+}

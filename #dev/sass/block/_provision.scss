@@ -1,0 +1,73 @@
+.provision {
+    &__wrapper {
+        padding: 0 0 150px 0;
+    }
+    &__title {
+        padding: 0 0 72px 0;
+        text-align: center;
+        margin: 0 auto;
+        color: #000000;
+        font-size: 43px;
+        font-family: "Arial";
+        font-weight: 600;
+    }
+    &__card-img {
+        
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+   &__img1{
+     max-width: 348px;
+   }
+    &__img2{
+     max-width: 272px;
+   }
+    &__img3{
+        max-width: 420px;
+    }
+    &__img4{
+        max-width: 290px;
+    }
+    &__imj1 {
+        max-width: 348px;
+        height: 270px;
+        margin-bottom: 20px;
+    }
+    &__imj2 {
+        max-width: 272px;
+        height: 272px;
+        margin-bottom: 20px;
+    }
+    &__imj3 {
+      
+        max-width: 278px;
+        height: 272px;
+        margin-bottom: 20px;
+       
+    }
+    &__imj4 {
+        max-width: 412px;
+        height: 270px;
+        margin-bottom: 20px;
+    }
+    &__imj1-title {
+        text-align: center;
+        line-height: 40px;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Arial";
+        font-weight: 600;
+    }
+      &__imj3-title {
+        margin: 0 auto;
+        max-width: 270px;
+        text-align: center;
+        line-height: 40px;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Arial";
+        font-weight: 600;
+    }
+      
+}
